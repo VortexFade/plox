@@ -25,7 +25,3 @@ end
 repeat
     task.wait(1)
 until game:GetService("Workspace").__THINGS and game:GetService("Workspace").__DEBRIS
-
-task.wait(2)
-
-print("[CLIENT] Loaded Game")
